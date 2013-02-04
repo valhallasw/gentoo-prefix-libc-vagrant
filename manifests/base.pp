@@ -31,7 +31,7 @@ class generic {
 	}	
 	
 	file { "/etc/motd":
-		content => "Welcome to the Gentoo Prefix Ubuntu 12.12 development environment! To start, run\n\n    cd gentoo-prefix-libc && ./bootstrap-prefix.sh\n\n",
+		content => "Welcome to the Gentoo Prefix Ubuntu 12.04 LTS development environment! To start, run\n\n    cd gentoo-prefix-libc && ./bootstrap-prefix.sh\n\n",
 	}
 }
 
